@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Identification Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Julius+Sans+One&family=Lora&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+</head>
+<body style="background-color: #8ddda1;">
+    <center>
+        <h1>Sound Identification</h1>
+<h5>Note: Play different sounds like clap, snap, bell to make the monsters dance</h5>
+        <h2 id="sound_resultsLabel">The Sound is: </h2>
+        <h3 id="confidence_results">Accuracy: </h3>
+        <button id="start" onclick="startSound()" style="background-color: rgb(99, 127, 72); border:1px groove rgb(99, 127, 72); color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; height: 30px; width: 50px;">Start</button>
+        <h2 id="sound"></h2>
+    
+        <img id="alien1" src="aliens-01.png">
+        <img id="alien2" src="aliens-02.png">
+        <img id="alien3" src="aliens-03.png">
+        <img id="alien4" src="aliens-04.png">
+        <footer>
+            <p>Made By Shubha<br></p>
+            
+          </footer>
+    </center>
+</body>
+<script src="main.js"></script>
+</html>
